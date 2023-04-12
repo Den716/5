@@ -10,19 +10,16 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-
             string name = "Краморов";
             string lastName = "Денис";
             Console.WriteLine($"Имя = {name}, Фамилия = {lastName}");
 
-            string change;
-            change = name;
+            string change = name;
             name = lastName;
             lastName = change;
 
             Console.WriteLine($"Имя = {name}, Фамилия = {lastName}");
-            Console.ReadKey();
-
+            Console.ReadKey(); 
         }
     }
 }
